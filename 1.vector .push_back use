@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a[4];
+    vector<int>v;
+    v.push_back(1);
+    v.push_back(2);
+    v.push_back(3);
+    v.push_back(4);
+     v[3]=13;//ami akane vector ar value change korshi//
+    cout<<v[3]<<"\n";
+return 0;
+}
