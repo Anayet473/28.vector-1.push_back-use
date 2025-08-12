@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+vector<int>v={7,4,4,3,2,2,1};
+sort(v.begin(),v.end());
+int uniq=unique(v.begin(),v.end())-v.begin();
+for(int i=0;i<uniq;i++){
+    cout<<v[i]<<" ";
+}
+
+
+return 0;
+}
